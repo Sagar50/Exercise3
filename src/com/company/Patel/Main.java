@@ -1,7 +1,6 @@
 //Sagar Patel, CSCI1660, 1/28/2020
 package com.company.Patel;
 import java.util.Scanner;
-
 public class Main {
     public static Scanner input = new Scanner(System.in);
     //Collects Input
@@ -13,8 +12,7 @@ public class Main {
     }
     //Turns Fahrenheit to Celsius
     public static double fahrenToCel(double fahrenDeg) {
-        double celDeg =  (( fahrenDeg - 32)*5)/9;
-        return celDeg;
+        return (( fahrenDeg - 32)*5)/9;
     }
     //Outputs Fahrenheit and Celsius
     public static void display(double fahrenDeg, double celDeg) {
